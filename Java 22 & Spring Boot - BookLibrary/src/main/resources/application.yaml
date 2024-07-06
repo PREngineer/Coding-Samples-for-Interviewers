@@ -1,0 +1,9 @@
+spring:
+  # Database Connection
+  datasource:
+    url: jdbc:mysql://localhost:3306/booklibrary?useSSL=false
+    username: user
+    password: password
+
+  #JPA Settings
+  jpa.hibernate.ddl_auto: create
